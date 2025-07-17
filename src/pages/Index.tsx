@@ -112,7 +112,7 @@ const Index = () => {
         </Card>
 
         {/* Collaboration Proposal */}
-        <Card className="max-w-4xl mx-auto mb-8 shadow-lg hover:shadow-xl transition-shadow duration-300 border-l-4 border-l-blue-500">
+        <Card className="max-w-4xl mx-auto mb-8 shadow-lg hover:shadow-xl transition-shadow duration-300">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl text-slate-900 flex items-center justify-center gap-2">
               <Briefcase className="h-6 w-6 text-blue-600" />
