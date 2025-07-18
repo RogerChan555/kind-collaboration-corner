@@ -31,7 +31,15 @@ const Index = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            I would like to collaborate with you On Upwork
+            I would like to collaborate with you On{" "}
+            <a 
+              href="https://www.upwork.com/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-green-500 hover:text-green-400 transition-colors"
+            >
+              Upwork
+            </a>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
             Building successful partnerships through reliable collaboration and shared expertise.
