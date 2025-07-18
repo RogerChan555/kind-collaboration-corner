@@ -166,8 +166,8 @@ const Index = () => {
           <CardContent className="space-y-6">
             <div className="mb-6 flex justify-center">
               <img 
-                src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb?w=600&h=300&fit=crop" 
-                alt="Starry night collaboration" 
+                src="/lovable-uploads/5318139a-59bb-4743-b048-8bc378098f1a.png"
+                alt="Handshake with gold bars representing profitable collaboration" 
                 className="rounded-lg shadow-lg w-full max-w-2xl h-48 object-cover"
               />
             </div>
