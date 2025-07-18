@@ -22,7 +22,7 @@ const Index = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">
       {/* Animated Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-20 left-10 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl animate-pulse"></div>
@@ -51,13 +51,13 @@ const Index = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             I hope you are lucky in everything you do.
           </h1>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
             Building successful partnerships through reliable collaboration and shared expertise.
           </p>
         </div>
 
         {/* Introduction Card */}
-        <Card className="max-w-4xl mx-auto mb-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-slate-800/80 border-slate-700 backdrop-blur-sm">
+        <Card className="max-w-4xl mx-auto mb-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl text-white flex items-center justify-center gap-2">
               <Users className="h-6 w-6 text-blue-400" />
@@ -72,7 +72,7 @@ const Index = () => {
                 className="rounded-lg shadow-lg w-full max-w-md h-48 object-cover"
               />
             </div>
-            <div className="prose prose-lg max-w-none text-slate-300 leading-relaxed">
+            <div className="prose prose-lg max-w-none text-gray-300 leading-relaxed">
               <p className="text-center text-lg">
                 My name is <span className="font-semibold text-blue-400">Roger Chan</span> and I am a web & AI developer in Hong Kong.
               </p>
@@ -88,7 +88,7 @@ const Index = () => {
 
         {/* Challenge & Solution */}
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-6 mb-8">
-          <Card className="shadow-2xl hover:shadow-3xl transition-all duration-300 bg-slate-800/80 border-slate-700 backdrop-blur-sm">
+          <Card className="shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
             <CardHeader>
               <CardTitle className="text-xl text-white">The Challenge</CardTitle>
             </CardHeader>
@@ -100,7 +100,7 @@ const Index = () => {
                   className="rounded-lg shadow-lg w-full h-32 object-cover"
                 />
               </div>
-              <p className="text-slate-300 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 I have decided to collaborate with European senior developers because my job interview skill is not so good. 
                 Every time I tried the interview, I failed because of my verbal English and Asian accent. 
                 But I can perfectly understand English and I'm really good at coding.
@@ -108,7 +108,7 @@ const Index = () => {
             </CardContent>
           </Card>
 
-          <Card className="shadow-2xl hover:shadow-3xl transition-all duration-300 bg-slate-800/80 border-slate-700 backdrop-blur-sm">
+          <Card className="shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
             <CardHeader>
               <CardTitle className="text-xl text-white">The Solution</CardTitle>
             </CardHeader>
@@ -120,7 +120,7 @@ const Index = () => {
                   className="rounded-lg shadow-lg w-full h-32 object-cover"
                 />
               </div>
-              <p className="text-slate-300 leading-relaxed">
+              <p className="text-gray-300 leading-relaxed">
                 Through strategic collaboration, we can combine your communication strengths with my technical expertise. 
                 I'll handle development work while you manage client communications, creating a win-win partnership.
               </p>
@@ -129,7 +129,7 @@ const Index = () => {
         </div>
 
         {/* Recent Work */}
-        <Card className="max-w-4xl mx-auto mb-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-slate-800/80 border-slate-700 backdrop-blur-sm">
+        <Card className="max-w-4xl mx-auto mb-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl text-white flex items-center justify-center gap-2">
               <Code className="h-6 w-6 text-blue-400" />
@@ -146,9 +146,9 @@ const Index = () => {
             </div>
             <div className="grid md:grid-cols-3 gap-4">
               {projects.map((project, index) => (
-                <div key={index} className="bg-slate-700/50 rounded-lg p-4 text-center hover:bg-slate-700/70 transition-colors duration-200 border border-slate-600">
+                <div key={index} className="bg-gray-800/50 rounded-lg p-4 text-center hover:bg-gray-800/70 transition-colors duration-200 border border-gray-700">
                   <h3 className="font-semibold text-white mb-2">{project.name}</h3>
-                  <p className="text-sm text-slate-300">{project.description}</p>
+                  <p className="text-sm text-gray-300">{project.description}</p>
                 </div>
               ))}
             </div>
@@ -156,7 +156,7 @@ const Index = () => {
         </Card>
 
         {/* Collaboration Proposal */}
-        <Card className="max-w-4xl mx-auto mb-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-slate-800/80 border-slate-700 backdrop-blur-sm">
+        <Card className="max-w-4xl mx-auto mb-8 shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl text-white flex items-center justify-center gap-2">
               <Briefcase className="h-6 w-6 text-blue-400" />
@@ -171,7 +171,7 @@ const Index = () => {
                 className="rounded-lg shadow-lg w-full max-w-2xl h-48 object-cover"
               />
             </div>
-            <div className="prose prose-lg max-w-none text-slate-300 leading-relaxed">
+            <div className="prose prose-lg max-w-none text-gray-300 leading-relaxed">
               <p>
                 You may have no project or you can't forward your current work for some privacy reasons, then we can try to get new jobs from Upwork.
               </p>
@@ -179,7 +179,7 @@ const Index = () => {
                 Actually in Upwork, the most boring and time-taking process is to send proposals. 
                 I can handle the proposal submissions, and if we land a job, I'll take care of the development work and you'd just need to have a call with the client when it is necessary.
               </p>
-              <div className="bg-blue-900/30 p-6 rounded-lg border border-blue-700/50">
+              <div className="bg-black/30 p-6 rounded-lg border border-gray-700/50">
                 <h4 className="font-semibold text-blue-300 mb-2">How We'll Work Together:</h4>
                 <ul className="space-y-2 text-blue-200">
                   <li>• Share the profit fairly between us</li>
@@ -194,12 +194,12 @@ const Index = () => {
         </Card>
 
         {/* Contact Information */}
-        <Card className="max-w-4xl mx-auto shadow-2xl hover:shadow-3xl transition-all duration-300 bg-slate-800/80 border-slate-700 backdrop-blur-sm">
+        <Card className="max-w-4xl mx-auto shadow-2xl hover:shadow-3xl transition-all duration-300 bg-gray-900/80 border-gray-800 backdrop-blur-sm">
           <CardHeader className="text-center">
             <CardTitle className="text-2xl text-white">Let's Connect</CardTitle>
           </CardHeader>
           <CardContent className="text-center space-y-6">
-            <p className="text-slate-300 text-lg">
+            <p className="text-gray-300 text-lg">
               I am looking forward to hearing from you.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -223,8 +223,8 @@ const Index = () => {
                 </a>
               </Button>
             </div>
-            <Separator className="my-6 bg-slate-600" />
-            <p className="text-slate-300 font-medium">
+            <Separator className="my-6 bg-gray-700" />
+            <p className="text-gray-300 font-medium">
               Best Regards,<br />
               <span className="text-blue-400 font-semibold">Roger</span>
             </p>
