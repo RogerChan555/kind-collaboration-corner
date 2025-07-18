@@ -31,7 +31,7 @@ const Index = () => {
             </span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            I hope you are lucky in everything you do.
+            I would like to collaborate with you On Upwork
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
             Building successful partnerships through reliable collaboration and shared expertise.
