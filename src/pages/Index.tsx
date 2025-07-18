@@ -48,8 +48,13 @@ const Index = () => {
               Collaboration Proposal
             </span>
           </div>
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            I hope you are lucky in everything you do.
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-orange-400 via-red-500 to-yellow-400 bg-clip-text text-transparent animate-pulse drop-shadow-[0_0_30px_rgba(255,69,0,0.8)] relative">
+            <span className="absolute inset-0 bg-gradient-to-r from-red-600 via-orange-500 to-yellow-500 bg-clip-text text-transparent blur-sm animate-[pulse_1.5s_ease-in-out_infinite]">
+              I hope you are lucky in everything you do.
+            </span>
+            <span className="relative z-10">
+              I hope you are lucky in everything you do.
+            </span>
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
             Building successful partnerships through reliable collaboration and shared expertise.
