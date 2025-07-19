@@ -187,39 +187,32 @@ const Index = () => {
                   and was really impressed with your work background and skills.
                 </p>
                 <p className="text-left">
-                  Until now I have worked as a full-stack developer in several
-                  companies and freelancing platforms, but in these days it is
-                  really hard to get jobs as a freelancer.
+                  So far, I have worked as a developer in various positions at
+                  various companies, either as a local team or remotely. The
+                  strengthened travel restrictions and restrictions on access to
+                  various social sites have recently caused me to lose many job
+                  opportunities.
                 </p>
               </div>
             </div>
-            <Separator className="bg-gray-600" />
-            <h3 className="text-xl font-semibold text-white">
-              The Challenge I'm facing
-            </h3>
             <p className="text-gray-300 leading-relaxed">
-              Some high-paying opportunities are restricted to candidates based
-              in Europe or the U.S., likely because clients prefer developers in
-              similar time zones. That said, I'm very comfortable working in
-              U.S. and European time zones — I’ve done it before without any
-              issues. So I have decided to collaborate with European senior
-              developers because my job interview skill is not so good. Every
-              time I tried the interview, I failed because of my verbal English
-              and Asian accent. But I can perfectly understand English and I'm
-              really good at coding.
+              I used to work as a freelancer on Upwork to earn extra income
+              while working full-time, and the income was very good. There was
+              an account I had created when I was working for the local team in
+              the Netherlands, but when I tried to sign-in recently, it was
+              detected as an IP change issue and blocked, so even the last bit
+              of hope disappeared.
             </p>
             <Separator className="bg-gray-600" />
-            <div className="space-y-4">
-              <h3 className="text-xl font-semibold text-white">
-                The Solution I think
-              </h3>
-              <p className="text-gray-300 leading-relaxed">
-                Through strategic collaboration, we can combine your
-                communication strengths with my technical expertise. I'll handle
-                development work while you manage client communications,
-                creating a win-win partnership.
-              </p>
-            </div>
+            <p className="text-gray-300 leading-relaxed">
+              The reality is that the U.S. and EU IT markets are still among the
+              largest in the world, which means more opportunities for
+              developers like me. In my experience on Upwork, some high-paying
+              opportunities are restricted to candidates based in Europe or the
+              U.S., likely because clients prefer developers in similar time
+              zones. That said, I'm very comfortable working in U.S. and
+              European time zones — I’ve done it before without any issues.
+            </p>
             <Separator className="bg-gray-600" />
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-white">
@@ -227,13 +220,17 @@ const Index = () => {
                 How We'll Work Together
               </h3>
               <ul className="space-y-2 text-gray-300">
-                <li>• Share the profit fairly between us</li>
-                <li>• Get more jobs through strategic collaboration</li>
-                <li>• I handle all development work</li>
-                <li>• You manage client communications when needed</li>
                 <li>
-                  • I'm familiar with Upwork bidding strategy for quick results
+                  • In this collaboration, we will use your Upwork account. <br/> &nbsp; If
+                  you don't have Upwork account, No worry let's create a new one
                 </li>
+                <li>
+                  • You will only handle the call with client whenever he need
+                </li>
+                <li>
+                  • I will handle all developement work and account management.
+                </li>
+                <li>• Share the profit fairly between us</li>
               </ul>
             </div>
             <Separator className="my-6 bg-gray-600" />
@@ -273,7 +270,16 @@ const Index = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <svg className="h-4 w-4 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M22 2L11 13"/><path d="M22 2L15 22L11 13L2 9L22 2Z"/></svg>
+                  <svg
+                    className="h-4 w-4 mr-2"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M22 2L11 13" />
+                    <path d="M22 2L15 22L11 13L2 9L22 2Z" />
+                  </svg>
                   Telegram
                 </a>
               </Button>
@@ -283,7 +289,13 @@ const Index = () => {
                 disabled
               >
                 <span className="flex items-center">
-                  <svg className="h-4 w-4 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-1.528 0-2.764-1.236-2.764-2.764s1.236-2.764 2.764-2.764 2.764 1.236 2.764 2.764-1.236 2.764-2.764 2.764zm-10.944 0c-1.528 0-2.764-1.236-2.764-2.764s1.236-2.764 2.764-2.764 2.764 1.236 2.764 2.764-1.236 2.764-2.764 2.764zm5.472 4.618c-2.485 0-7.5 1.243-7.5 3.729V22h15v-.271c0-2.486-5.015-3.729-7.5-3.729z"/></svg>
+                  <svg
+                    className="h-4 w-4 mr-2"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M17.472 14.382c-1.528 0-2.764-1.236-2.764-2.764s1.236-2.764 2.764-2.764 2.764 1.236 2.764 2.764-1.236 2.764-2.764 2.764zm-10.944 0c-1.528 0-2.764-1.236-2.764-2.764s1.236-2.764 2.764-2.764 2.764 1.236 2.764 2.764-1.236 2.764-2.764 2.764zm5.472 4.618c-2.485 0-7.5 1.243-7.5 3.729V22h15v-.271c0-2.486-5.015-3.729-7.5-3.729z" />
+                  </svg>
                   Discord: <span className="ml-1 font-mono">rc_01_03</span>
                 </span>
               </Button>
