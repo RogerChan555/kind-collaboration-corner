@@ -160,9 +160,14 @@ const Index = () => {
               <div className="w-full md:w-1/2 flex flex-col justify-center space-y-4">
                 <p className="text-left text-lg">
                   My name is{" "}
-                  <span className="font-semibold text-blue-400">
+                  <a
+                    href="https://roger.lovedbymen.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue-400 hover:text-blue-300 transition-colors cursor-pointer underline decoration-transparent hover:decoration-blue-300"
+                  >
                     Roger Chan
-                  </span>{" "}
+                  </a>{" "}
                   and I am a web & AI developer in Hong Kong.
                 </p>
                 <p className="text-left">
@@ -201,7 +206,7 @@ const Index = () => {
               Some high-paying opportunities are restricted to candidates based
               in Europe or the U.S., likely because clients prefer developers in
               similar time zones. That said, I'm very comfortable working in
-              U.S. and European time zones — I’ve done it before without any
+              U.S. and European time zones — I've done it before without any
               issues. So I have decided to collaborate with European senior
               developers because my job interview skill is not so good. Every
               time I tried the interview, I failed because of my verbal English
