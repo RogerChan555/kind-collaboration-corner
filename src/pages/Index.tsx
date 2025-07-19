@@ -164,7 +164,7 @@ const Index = () => {
                     href="https://roger.lovedbymen.com"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="font-semibold text-blue-400 hover:text-blue-300 transition-colors cursor-pointer underline decoration-transparent hover:decoration-blue-300"
+                    className="font-semibold text-blue-400 hover:text-blue-300 transition-colors cursor-pointer"
                   >
                     Roger Chan
                   </a>{" "}
