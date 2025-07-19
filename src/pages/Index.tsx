@@ -160,9 +160,14 @@ const Index = () => {
               <div className="w-full md:w-1/2 flex flex-col justify-center space-y-4">
                 <p className="text-left text-lg">
                   My name is{" "}
-                  <span className="font-semibold text-blue-400">
+                  <a
+                    href="https://roger.lovedbymen.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-blue-400 hover:text-blue-300 transition-colors cursor-pointer"
+                  >
                     Roger Chan
-                  </span>{" "}
+                  </a>{" "}
                   and I am a web & AI developer in Hong Kong.
                 </p>
                 <p className="text-left">
