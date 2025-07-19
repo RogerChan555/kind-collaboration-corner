@@ -62,12 +62,6 @@ const Index = () => {
       {/* Hero Section */}
       <div className="container mx-auto px-4 py-12">
         <div className="text-center mb-12">
-          <div className="inline-flex items-center gap-2 mb-4">
-            <Heart className="h-6 w-6 text-blue-400" />
-            <span className="text-sm font-medium text-blue-400 uppercase tracking-wider">
-              Collaboration Proposal
-            </span>
-          </div>
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
             I would like to collaborate with you on{" "}
             <a
